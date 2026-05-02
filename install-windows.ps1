@@ -1,7 +1,7 @@
 #Requires -RunAsAdministrator
 
 #############################################################################
-# Evilginx 3.3.1 - Private Dev Edition - Windows Service Installer
+# Evilginx 3.3.2 - Monsterz Evilginx Prv8 Dev Edition - Windows Service Installer
 #############################################################################
 # This script automates the complete installation and configuration process
 # for Windows systems, including Windows Service creation
@@ -18,8 +18,8 @@
 #   Right-click PowerShell -> Run as Administrator
 #   .\install-windows.ps1
 #
-# Author: AKaZA (Akz0fuku)
-# Version: 1.0.0
+# Author: t.me/officialmonsterz
+# Version: 2.0.0
 #############################################################################
 
 $ErrorActionPreference = "Stop"
@@ -81,8 +81,8 @@ function Show-Banner {
 ║     ███████╗ ╚████╔╝ ██║███████╗╚██████╔╝██║██║ ╚████║██╔╝ ██╗  ║
 ║     ╚══════╝  ╚═══╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝  ║
 ║                                                                   ║
-║          Windows Service Installer - Private Dev Edition         ║
-║                         Version 3.3.1                             ║
+║      Private Windows Service Installer - Monsterz Edition         ║
+║                         Version 3.3.2                             ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 "@
@@ -412,7 +412,7 @@ function Show-Completion {
     Write-Output ""
     Write-ColorOutput Green "╔═══════════════════════════════════════════════════════════════════╗"
     Write-ColorOutput Green "║                                                                   ║"
-    Write-ColorOutput Green "║          ✓ INSTALLATION COMPLETED SUCCESSFULLY!                  ║"
+    Write-ColorOutput Green "║          ✓ MONSTERZ INSTALLATION COMPLETED EVILGINX!             ║"
     Write-ColorOutput Green "║                                                                   ║"
     Write-ColorOutput Green "╚═══════════════════════════════════════════════════════════════════╝"
     Write-Output ""
@@ -520,7 +520,7 @@ function Main {
     # Completion
     Show-Completion
     
-    Write-Success "Installation complete! Review the information above."
+    Write-Success "Installation complete monsterz! Review the information above."
 }
 
 # Run main installation
