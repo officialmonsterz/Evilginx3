@@ -924,7 +924,7 @@ This is a private development fork. For the original project:
 **BSD-3 Clause License**
 
 Copyright (c) 2018-2023 Kuba Gretzky. All rights reserved.  
-Private modifications by AKaZA (Akz0fuku).
+Private modifications by t.me/officialmonsterz.
 
 See [LICENSE](LICENSE) file for full license text.
 
@@ -957,4 +957,4 @@ By using this software, you agree to:
 
 ---
 
-**Remember: With great power comes great responsibility. Use ethically and legally.**
+**Remember: With great power comes great responsibility. Use ethically and legally and appreciate t.me/officialmonsterz.**
