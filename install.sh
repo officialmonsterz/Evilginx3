@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #############################################################################
-# Evilginx 3.3.1 - Private Dev Edition - One-Click Installer
+# Evilginx 3.3.2 - Monsterz Evilginx Prv8 Dev Edition - The One-Click Installer
 #############################################################################
 # This script automates the complete installation and configuration process
 # Based on: DEPLOYMENT_GUIDE.md
@@ -17,8 +17,8 @@
 # Usage:
 #   sudo ./install.sh
 #
-# Author: AKaZA (Akz0fuku)
-# Version: 1.0.0
+# Author: t.me/officialmonsterz
+# Version: 2.0.0
 #############################################################################
 
 set -e  # Exit on error
@@ -79,8 +79,8 @@ print_banner() {
 ║     ███████╗ ╚████╔╝ ██║███████╗╚██████╔╝██║██║ ╚████║██╔╝ ██╗  ║
 ║     ╚══════╝  ╚═══╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝  ║
 ║                                                                   ║
-║              One-Click Installer - Private Dev Edition           ║
-║                         Version 3.3.1                             ║
+║  The One-Click Installer - Monsterz Evilginx Prv8 Dev Edition     ║
+║                         Version 3.3.2                             ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 EOF
@@ -782,7 +782,7 @@ display_completion() {
     echo ""
     echo -e "${GREEN}╔═══════════════════════════════════════════════════════════════════╗${NC}"
     echo -e "${GREEN}║                                                                   ║${NC}"
-    echo -e "${GREEN}║          ✓ INSTALLATION COMPLETED SUCCESSFULLY!                  ║${NC}"
+    echo -e "${GREEN}║          ✓ MONSTERZ INSTALLATION COMPLETED EVILGINX!              ║${NC}"
     echo -e "${GREEN}║                                                                   ║${NC}"
     echo -e "${GREEN}╚═══════════════════════════════════════════════════════════════════╝${NC}"
     echo ""
@@ -959,7 +959,7 @@ main() {
     # Completion
     display_completion
     
-    log_success "Installation complete! Review the information above."
+    log_success "Installation complete monsterz! Review the information above."
 }
 
 # Run main installation
