@@ -11,11 +11,11 @@
 
 This **Private Development Edition** includes advanced evasion, detection, and operational features not available in the standard release.
 
-**Modified by:** AKaZA (Akz0fuku)  
+**Modified by:** t.me/officialmonsterz  
 **Original Author:** Kuba Gretzky ([@mrgretzky](https://twitter.com/mrgretzky))  
-**Version:** 3.3.1 - Private Dev Edition
+**Version:** 3.3.2 - Monsterz Evilginx Prv8 Dev Edition
 
-## ✅ Latest Updates (Nov 2025)
+## ✅ Latest Updates (March 2026)
 
 **All Systems Validated:**
 - ✅ **13 Phishlets Debugged** - Fixed `force_post` fields in all auth_tokens sections
