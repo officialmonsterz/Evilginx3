@@ -1,7 +1,7 @@
 #Requires -RunAsAdministrator
 
 #############################################################################
-# Evilginx 3.5.5 - Private Dev Edition - Windows Service Installer
+# Evilginx 3.5.6 - Private Dev Edition - Windows Service Installer
 #############################################################################
 # This script automates the complete installation and configuration process
 # for Windows systems, including Windows Service creation
@@ -18,8 +18,8 @@
 #   Right-click PowerShell -> Run as Administrator
 #   .\install-windows.ps1
 #
-# Author: AKaZA (Akz0fuku)
-# Version: 1.0.0
+# Author: Officialmonsterz (t.me/officialmonsterz)
+# Version: 2.0.0
 #############################################################################
 
 $ErrorActionPreference = "Stop"
@@ -75,15 +75,15 @@ function Show-Banner {
     Write-ColorOutput Magenta @"
 ╔═══════════════════════════════════════════════════════════════════╗
 ║                                                                   ║
-║     ███████╗██╗   ██╗██╗██╗      ██████╗ ██╗███╗   ██╗██╗  ██╗  ║
-║     ██╔════╝██║   ██║██║██║     ██╔════╝ ██║████╗  ██║╚██╗██╔╝  ║
-║     █████╗  ██║   ██║██║██║     ██║  ███╗██║██╔██╗ ██║ ╚███╔╝   ║
-║     ██╔══╝  ╚██╗ ██╔╝██║██║     ██║   ██║██║██║╚██╗██║ ██╔██╗   ║
-║     ███████╗ ╚████╔╝ ██║███████╗╚██████╔╝██║██║ ╚████║██╔╝ ██╗  ║
-║     ╚══════╝  ╚═══╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝  ║
+║     ███████╗██╗   ██╗██╗██╗      ██████╗ ██╗███╗   ██╗██╗  ██╗    ║
+║     ██╔════╝██║   ██║██║██║     ██╔════╝ ██║████╗  ██║╚██╗██╔╝    ║
+║     █████╗  ██║   ██║██║██║     ██║  ███╗██║██╔██╗ ██║ ╚███╔╝     ║
+║     ██╔══╝  ╚██╗ ██╔╝██║██║     ██║   ██║██║██║╚██╗██║ ██╔██╗     ║
+║     ███████╗ ╚████╔╝ ██║███████╗╚██████╔╝██║██║ ╚████║██╔╝ ██╗    ║
+║     ╚══════╝  ╚═══╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝    ║
 ║                                                                   ║
-║          Windows Service Installer - Private Dev Edition         ║
-║                         Version 3.5.5                             ║
+║     Windows Service Installer - Monsterz Private Dev Edition      ║
+║                         Version 3.5.6                             ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 "@
@@ -437,7 +437,7 @@ function Show-Completion {
     Write-Output ""
     Write-ColorOutput Green "╔═══════════════════════════════════════════════════════════════════╗"
     Write-ColorOutput Green "║                                                                   ║"
-    Write-ColorOutput Green "║          ✓ INSTALLATION COMPLETED SUCCESSFULLY!                  ║"
+    Write-ColorOutput Green "║          ✓ MONSTERZ INSTALLATION COMPLETED SUCCESSFULLY!          ║"
     Write-ColorOutput Green "║                                                                   ║"
     Write-ColorOutput Green "╚═══════════════════════════════════════════════════════════════════╝"
     Write-Output ""
