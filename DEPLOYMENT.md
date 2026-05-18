@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD013 -->
 
-# 🚀 Evilginx 3.5.5 Private Dev Edition - Complete Deployment Guide
+# 🚀 Evilginx 3.5.6 Private Dev Edition - Complete Deployment Guide t.me/officialmonsterz
 
 > **⚠️ LEGAL DISCLAIMER**: This guide is for **AUTHORIZED PENETRATION TESTING AND RED TEAM ENGAGEMENTS ONLY**. Unauthorized use is illegal. Always obtain written permission before conducting security assessments.
 
