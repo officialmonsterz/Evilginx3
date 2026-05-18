@@ -100,7 +100,7 @@ This is a private development fork. For the original project:
 ## 📄 License & Legal
 
 **BSD-3 Clause License** - Copyright (c) 2018-2023 Kuba Gretzky. All rights reserved.  
-Private modifications by AKaZA (Akz0fuku).
+Private modifications by t.me/officialmonsterz.
 
 **This tool is provided for educational and authorized testing purposes only.**
 By using this software, you agree to:
