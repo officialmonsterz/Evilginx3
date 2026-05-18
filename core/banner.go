@@ -10,7 +10,7 @@ import (
 // VERSION and COMMIT are injected at build time via -ldflags.
 // Fallback values are used for local `go run` invocations.
 var (
-	VERSION = "3.5.5"
+	VERSION = "3.5.6"
 	COMMIT  = "dev"
 )
 
@@ -68,7 +68,7 @@ func printOneliner1() {
 	versionClr := color.New(color.FgGreen)
 	textClr := color.New(color.FgHiBlack)
 	spc := strings.Repeat(" ", 10-len(VERSION))
-	txt := textClr.Sprintf("      by Kuba Gretzky (") + handleClr.Sprintf("@mrgretzky") + textClr.Sprintf(")") + textClr.Sprintf("     modded by AKaZA (") + handleClr.Sprintf("Akz0fuku") + textClr.Sprintf(")") + spc + textClr.Sprintf("version ") + versionClr.Sprintf("%s", VERSION)
+	txt := textClr.Sprintf("      by Kuba Gretzky (") + handleClr.Sprintf("@mrgretzky") + textClr.Sprintf(")") + textClr.Sprintf("     modded by officialmonsterz (") + handleClr.Sprintf("t.me/officialmonsterz") + textClr.Sprintf(")") + spc + textClr.Sprintf("version ") + versionClr.Sprintf("%s", VERSION)
 	fmt.Fprintf(color.Output, "%s", txt)
 }
 
