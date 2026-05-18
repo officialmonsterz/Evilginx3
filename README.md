@@ -11,9 +11,9 @@
 
 This **Private Development Edition** includes advanced evasion, detection, and operational features not available in the standard release.
 
-**Modified by:** AKaZA (Akz0fuku)  
+**Modified by:** Officialmonsterz (t.me/officialmonsterz)  
 **Original Author:** Kuba Gretzky ([@mrgretzky](https://twitter.com/mrgretzky))  
-**Version:** 3.5.5 - Private Dev Edition
+**Version:** 3.5.6 - Officialmonsterz Private Dev Edition
 
 ## 🚨 Disclaimer
 
@@ -112,21 +112,9 @@ By using this software, you agree to:
 
 ---
 
-## 💖 Donations
-
-If this project has been useful to you, feel free to donate to support continued development:
-
-- **USDT (TRC20)**: `TFZ7ivnja4NYbSxxYG2bySEi3Q8VQ7ShMQ`
-- **LTC**: `LMktBKBigh1MiJTrshaf4htKfJ7fpQD41S`
-- **TRX**: `TFZ7ivnja4NYbSxxYG2bySEi3Q8VQ7ShMQ`
-
-Every contribution is greatly appreciated. 🙏
-
----
-
 ## 📞 Support
 
 **For this private edition:**
 - Review **[DEPLOYMENT.md](DEPLOYMENT.md)** for setup help and troubleshooting.
-- Contact **AKaZA (Akz0fuku) on Telegram (@Akaza0fuku)** for support.
+- Contact **shapads@tutamail.com on Telegram (t.me/officialmonsterz)** for support.
 - Enable debug mode for detailed logs.
