@@ -24,7 +24,7 @@ fi
 
 echo ""
 echo "╔═══════════════════════════════════════════════════════════╗"
-echo "║     Cloudflare Tunnel Setup — Evilginx Admin Panels      ║"
+echo "║ Cloudflare Tunnel Setup — Evilginx Admin Panels Monsterz  ║"
 echo "╚═══════════════════════════════════════════════════════════╝"
 echo ""
 echo "This will create:"
